@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AIQKit_Example' do
+  pod 'AIQKit', :path => '../'
+
+  target 'AIQKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
